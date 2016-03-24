@@ -5,7 +5,7 @@ DESTDIR     = $${ROOT}/src/bin
 INCLUDEPATH += . $${ROOT}
 DEPENDPATH  += . $${ROOT}
 
-include($${ROOT}/qtsingleapplication/src/qtsingleapplication.pri)
+#include($${ROOT}/qtsingleapplication/src/qtsingleapplication.pri)
 
 TEMPLATE = app
 TARGET = myprogram
